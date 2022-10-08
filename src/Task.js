@@ -1,13 +1,14 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 
 
 function Task(){
   
     return(
         <div className="task">
-            <div ><a href="/transfer"><button className="tasklist"  >TRANSFER</button></a></div>
-            <div ><a href="/airtime"><button className="tasklist">AIRTIME</button></a></div>
-            <div ><a href="/history"><button className="tasklist">HISTORY</button></a></div>
+            <div ><NavLink to="/transfer"><button className="tasklist"  >TRANSFER</button></NavLink></div>
+            <div ><NavLink to="/airtime"><button className="tasklist">AIRTIME</button></NavLink></div>
+            <div ><NavLink to="/history"><button className="tasklist">HISTORY</button></NavLink></div>
             <div ><button className="tasklist">MORE</button></div>
 
         </div>
