@@ -1,5 +1,6 @@
 import React from 'react'
 import Transhead from './Transhead';
+
 function Transferpage(){
     return(
         <div className='transferpage'>
